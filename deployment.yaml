@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: devops-demo-app
-        image: yogithak/devops-project-app:32
+        image: yogithak/devops-project-app:33
         ports:
         - containerPort: 9090
