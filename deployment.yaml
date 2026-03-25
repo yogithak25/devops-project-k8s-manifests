@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: devops-automation-project-deployment
+  name: java-devops-deployment
   labels:
-    app: devops-automation-project-app
+    app: java-devops-automation-project
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: devops-automation-project-app
+      app: java-devops-automation-project
   template:
     metadata:
       labels:
-        app: devops-automation-project-app
+        app: java-devops-automation-project
     spec:
       containers:
       - name: devops-demo-app
